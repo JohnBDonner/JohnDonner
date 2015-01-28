@@ -1,6 +1,6 @@
 <div class="portfolio-item">
 	<div class="portfolio-content image">
-		<div class="picture-filler"></div>
+		<%= image_tag("210-picture.png", :size => "200x200", :alt => "csc 210 project") %>
 	</div>
 	<div class="portfolio-content description">
 	<h3>CSC 210 Project</h3>
@@ -8,18 +8,6 @@
 	</div>
 	<div class="portfolio-content links">
 		<li><%= link_to "View on Github", 			"https://github.com/JohnBDonner/csc210-project", class: "link-github", :target => "_blank" %></li>
-	</div>
-</div>
-<div class="portfolio-item">
-	<div class="portfolio-content image">
-		<%= image_tag("travel_app_web.png", :size => "200x200", :alt => "travel app") %>
-	</div>
-	<div class="portfolio-content description">
-		<h3>Bucket</h3>
-		<p>Mock web and mobile designs for a concept travel application.</p>
-	</div>
-	<div class="portfolio-content links">
-		<li><%= link_to "View Screens", 			"" %></li>
 	</div>
 </div>
 <div class="portfolio-item">
@@ -37,10 +25,13 @@
 </div>
 <div class="portfolio-item">
 	<div class="portfolio-content image">
-		<div class="picture-filler"></div>
+		<%= image_tag("bucket-logo.png", :size => "200x200", :alt => "travel app") %>
 	</div>
 	<div class="portfolio-content description">
-	<h3>Title</h3>
-	<p>Descriptive text detailing what the project or application is.</p>
+		<h3>Bucket</h3>
+		<p>Mock web and mobile designs for a concept travel application.</p>
+	</div>
+	<div class="portfolio-content links">
+		<!-- <li><%= link_to "View Screens", 			"" %></li> -->
 	</div>
 </div>

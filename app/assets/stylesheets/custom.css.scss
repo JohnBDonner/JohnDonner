@@ -31,6 +31,7 @@ html {
 
 body {
 	// padding-top: 60px;
+	background-color: #ffffff;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -148,6 +149,12 @@ a {
 .link-twitter {
 	&:hover {
 		color: #55acee;
+	}
+}
+
+.link-linkedin {
+	&:hover {
+		color: #0976b4;
 	}
 }
 
