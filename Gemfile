@@ -22,6 +22,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 # new relic addon for Heroku
 gem 'newrelic_rpm'
+# fixes jquery not loading on page load, but only on page REload
+gem 'jquery-turbolinks'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
