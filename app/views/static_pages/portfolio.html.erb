@@ -1,5 +1,18 @@
 <div class="portfolio-item">
 	<div class="portfolio-content image">
+		<%= image_tag("sparksite-logo.png", :size => "200x200", :alt => "sparksite") %>
+	</div>
+	<div class="portfolio-content description">
+	<h3>Spark Entrepreneurs</h3>
+	<p>The website for the official undergraduate entrepreneurship club at the University of Rochester. Developed and designed on Ruby on Rails.</p>
+	</div>
+	<div class="portfolio-content links">
+		<li><%= link_to "View on Github", 			"https://github.com/sparkentrepreneurship/Spark-Site", class: "link-github", :target => "_blank" %></li>
+		<li><%= link_to "View Site", 			"http://www.sparkentrepreneurship.club/", :target => "_blank" %></li>
+	</div>
+</div>
+<div class="portfolio-item">
+	<div class="portfolio-content image">
 		<%= image_tag("210-picture.png", :size => "200x200", :alt => "csc 210 project") %>
 	</div>
 	<div class="portfolio-content description">
@@ -20,7 +33,7 @@
 	</div>
 	<div class="portfolio-content links">
 		<li><%= link_to "View on Github", 			"https://github.com/UR-Vocal-Coach/app", class: "link-github", :target => "_blank" %></li>
-		<li><%= link_to "View Site", 			"https://sites.google.com/a/u.rochester.edu/ur-vocalcoach/", :target => "_blank" %></li>
+		<li><%= link_to "View Site", 				"https://sites.google.com/a/u.rochester.edu/ur-vocalcoach/", :target => "_blank" %></li>
 	</div>
 </div>
 <div class="portfolio-item">
@@ -38,5 +51,8 @@
 		<li class="1 pic"><%= image_tag "bucket_web.png" %></li>
 		<li class="2 pic"><%= image_tag "bucket_mobile.png" %></li>
 	</div>
+</div>
+<div class="footer">
+	John Donner | 2015
 </div>
 <div class="pic-view-bg"></div>
