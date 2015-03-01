@@ -22,6 +22,7 @@ $(document).ready(function () {
     	index = 0;
     	picNum = findNums(arr[index]);
     	$("."+picNum).fadeIn(400);
+    	$("."+picNum).css("z-index", "15");
 	});
 
 	$(".pic-view-bg").click(function(event) {
